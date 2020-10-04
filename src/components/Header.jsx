@@ -7,12 +7,14 @@ const Header = () => {
     <header className="w-full flex justify-center px-4 py-3">
       <div className="max-w-5xl w-full">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <img className="w-8 h-8" src={Logo} alt="Logo" />
-            <span className="font-semibold font-sans mx-2 text-3xl text-indigo-700">
-              Reward Cycle
-            </span>
-          </div>
+          <Link to="/">
+            <div className="flex items-center">
+              <img className="w-8 h-8" src={Logo} alt="Logo" />
+              <span className="font-semibold font-sans mx-2 text-3xl text-indigo-700">
+                Reward Cycle
+              </span>
+            </div>
+          </Link>
           <div className="flex items-center">
             <Link to="/">
               <span role="img" aria-label="home" className="text-2xl">

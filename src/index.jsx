@@ -11,7 +11,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/register" component={Register} />
-      <Route path="/:id" component={Profile} />
+      <Route path="/:userName" component={Profile} />
       <Route path="/" component={Home} />
     </Switch>
   </BrowserRouter>,
