@@ -50,7 +50,7 @@ const Register = () => {
   return (
     <div className="bg-gray-200 min-h-screen h-full font-sans flex flex-col items-center">
       <Header />
-      <main className="mt-16 w-full flex flex-col items-center">
+      <main className="mt-16 mb-8 w-full flex flex-col items-center">
         <div className="max-w-4xl mx-4">
           <h2 className="pb-1 font-bold text-3xl text-center text-indigo-700 border-b-2 border-indigo-600">
             Register

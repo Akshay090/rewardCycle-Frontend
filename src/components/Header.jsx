@@ -10,7 +10,7 @@ const Header = () => {
           <Link to="/">
             <div className="flex items-center">
               <img className="w-8 h-8" src={Logo} alt="Logo" />
-              <span className="font-semibold font-sans mx-2 text-3xl text-indigo-700">
+              <span className="font-semibold font-sans mx-2 text-xl text-indigo-700">
                 Reward Cycle
               </span>
             </div>
